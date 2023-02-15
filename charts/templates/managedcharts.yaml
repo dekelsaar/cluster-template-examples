@@ -21,7 +21,7 @@ apiVersion: management.cattle.io/v3
 kind: ManagedChart
 metadata:
   name: monitoring-{{ .Values.cluster.name }}
-  namespace: fleet-default
+  namespace: dekel-ns
 spec:
   chart: "rancher-monitoring"
   repoName: "rancher-charts"
